@@ -1,0 +1,156 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+ 
+.navbar
+{
+    background-image: linear-gradient(to right, #a7d43d,#5cc765) ;
+    padding: 0 !important;
+}
+
+.navbar-brand img 
+{
+border-radius: 50%;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a 
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+#food-order
+{
+    margin: 100px 0;
+    
+}
+
+.btn-warning{
+    border: none;
+    border-radius: 20px;
+    box-shadow: none;
+    padding: 8px 25px;
+    background-image: linear-gradient(to right,#a7d43d,#5cc765);
+    margin-top: 50px ;
+}
+/*----contact section----*/
+#contact .btn-primary
+{
+    box-shadow:none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a7d43d,#5cc765);
+    margin-top: 5%;
+}
+
+#contact .card
+{
+        margin-top: 50px;
+        padding: 50px 40px 50px 40px;
+          background: none;
+          border-color: lightgray;
+          border-radius: 10px;
+        border-width: 3ch;
+}
+
+/*--about--*/
+#about{
+    margin: 100px 0;
+}
+.about-imgs
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/*--admin web app--*/
+#admin1
+{
+    margin: 100px 0;
+    background-image: linear-gradient(#f1e5e5,#f1bdbd);
+}
+
+/*--customer--*/
+
+#customer
+{
+    margin: 100px 0;
+    background-image: linear-gradient(#f1e5e5,#ece3e3); 
+}
+
+
+/*--vendor--*/
+#vendor
+{
+    margin: 100px 0;
+    background-image: linear-gradient(#f1e5e5,#f1bdbd);
+}
+
+
+/*--driver--*/
+#driver
+{
+    margin: 100px 0;
+    background-image: linear-gradient(#f1e5e5,#ece3e3);
+}
+
+
+/*--users words--*/
+
+#user
+{
+    margin: 100px 0;
+}
+.main
+{
+    color:brown;
+    text-align: center;
+}
+
+/*--reason--*/
+#reason{
+    margin: 100px 0;
+    background-image: linear-gradient(#f1e5e5,#f1bdbd);
+
+}
+.reason-imgs
+{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/*----fqa------*/
+#faq .rect
+{
+        margin-top: 50px;
+        padding: 50px 40px 50px 40px;
+        background: none;
+        border-radius: 10px;
+        background-image: linear-gradient(#f1e5e5,#ece3e3);
+}
